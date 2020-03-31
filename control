@@ -1,0 +1,9 @@
+Package: com.lint.nogetcoins
+Name: RedditNoGetCoinsButton
+Depends: mobilesubstrate
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Removes the new "Get Coins" button in the nav bar in Reddit.
+Maintainer: lint
+Author: lint
+Section: Tweaks
