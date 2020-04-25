@@ -1,4 +1,8 @@
 
+@interface AwardedCommentHighlightNode
+ : UIView
+@end
+
 %hook MainTabBarController
 
 -(void) addCoinSaleButton{}
@@ -27,8 +31,28 @@
 
 %end
 
+%hook RoundedHighlightView
+
+-(id) highlightColor{
+	return [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
+}
+
+-(void) setHighlightColor:(id) arg1{
+	%orig([UIColor colorWithRed:0 green:0 blue:0 alpha:0]);
+}
+
+%end
+
+%hook AwardedCommentHighlightNode
+
+-(void) layoutSubviews{
+	%orig;
+
+	[self setHidden:YES];
+}
+
+%end
+
 %ctor{
-
-	%init(_ungrouped, CoinSaleEntryContainer = objc_getClass("Reddit.CoinSaleEntryContainer"));
-
+	%init(RoundedHighlightView = objc_getClass("Reddit.RoundedHighlightView"), AwardedCommentHighlightNode = objc_getClass("_TtCC6Reddit27AwardedCommentHighlightNode13HighlightView"), CoinSaleEntryContainer = objc_getClass("Reddit.CoinSaleEntryContainer"))
 }
