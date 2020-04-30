@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lint.stopitwiththecoins.prefs</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Restart Reddit for changes to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lint.stopitwiththecoins.prefs</string>
+			<key>key</key>
+			<string>isCommentHighlightHidden</string>
+			<key>label</key>
+			<string>Hide awarded comment highlights</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lint.stopitwiththecoins.prefs</string>
+			<key>key</key>
+			<string>isSearchCoinButtonHidden</string>
+			<key>label</key>
+			<string>Hide coin button in search bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lint.stopitwiththecoins.prefs</string>
+			<key>key</key>
+			<string>isGildingButtonHidden</string>
+			<key>label</key>
+			<string>Hide gild button on posts and comments</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lint.stopitwiththecoins.prefs</string>
+			<key>key</key>
+			<string>isUserDrawerPremiumHidden</string>
+			<key>label</key>
+			<string>Hide premium and get coins in pullover menu</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>StopItWithTheCoins</string>
+</dict>
+</plist>
+
+

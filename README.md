@@ -1,2 +1,2 @@
 # StopItWithTheCoins
-Tweak | Hides the "get coins" button in the search bar and awarded comment highlights in the official Reddit app.
+Tweak | Hides several coin promotions and usages in the official Reddit app.
