@@ -1,7 +1,7 @@
 Package: com.lint.stopitwiththecoins
 Name: StopItWithTheCoins
 Depends: mobilesubstrate
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Description: Hides several coin promotions and usages in the official Reddit app.
 Maintainer: lint
